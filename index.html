@@ -1,0 +1,120 @@
+<html
+    __fvdsurfcanyoninserted="1"
+    class="
+        clickberry-extension
+        clickberry-extension-standalone
+        clickberry-extension
+        clickberry-extension-standalone
+        clickberry-extension
+        clickberry-extension-standalone
+    "
+>
+    <head>
+        <meta charset="UTF-8" />
+        <!-- 0. Phần icon của website (thay đổi link đến icon nếu bạn muốn sửa nó) -->
+        <link rel="shortcut icon" type="image/png" href="./1.png"/>
+
+        <!-- 1. Đây là phần title của website -->
+        <title>Tạ Quốc Thắng</title>
+        <link rel="stylesheet" href="./style.css">
+        <script>
+            window.open = function () {};
+            window.print = function () {};
+            // Support hover state for mobile.
+            if (false) {
+                window.ontouchstart = function () {};
+            }
+        </script>
+        <script
+            type="text/javascript"
+            src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"
+        ></script>
+        <meta content="clickberry-extension-here" />
+    </head>
+
+    <body>
+        <link
+            href="https://fonts.googleapis.com/css?family=Wendy+One"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <div class="container">
+            
+            <div class="balloon">
+                <div><span>D</span></div>
+                <div><span>1</span></div>
+                <div><span>6</span></div>
+                <div><span>C</span></div>
+                <div><span>N</span></div>
+                <div><span>M</span></div>
+                <div><span>P</span></div>
+                <div><span>4</span></div>
+               <!-- <div><span>T</span></div>
+                <div><span>H</span></div>
+                <div><span>D</span></div>
+                <div><span>A</span></div>
+                <div><span>Y</span></div> -->
+            </div>
+            <div class="avatar">
+                <!-- 3. Avatar của người bạn muốn gởi lời chúc -->
+                <img src="./MyAvatar.jpg" alt="" class="avatar__img" onclick="showMessage()" />
+                <!-- 4. Tên của người đó -->
+                <h1 onclick="showMessage()" class="avatar__text">💌<br>Hoàng Thị Thùy Trang </h1>
+            </div>
+            <div class="anc_pl"> 
+
+                <iframe width="100%" height="550px" src="https://drive.google.com/file/d/1cSIQWnjnYHB-VP-8LJUAD2v8CqtC4fzs/preview" scrolling="no" frameborder="0" allowfullscreen="true" id="playerayer"> 
+
+                </iframe> 
+            </div>
+            <div class="vid1"> 
+
+                <iframe width="100%" height="550px" src="https://drive.google.com/file/d/1icE-M-l2-PyXDSMLIeFzzxBzpHiHUuY6/preview" scrolling="no" frameborder="0" allowfullscreen="true" id="playerayer"> 
+
+                </iframe> 
+            </div><div class="vid2"> 
+
+                <iframe width="100%" height="550px" src="https://drive.google.com/file/d/1nJkrZ0JBjzoFTucp9BZEtNk0TMqA6iZn/preview" scrolling="no" frameborder="0" allowfullscreen="true" id="playerayer"> 
+
+                </iframe> 
+            </div>
+            <div class="text">
+
+                <h2>Vũ Tiến Khoái</h2>
+
+            </div>
+            <div class="text1">
+
+                <h2>Dương Đức Toàn</h2>
+
+            </div>
+            <div class="text2">
+
+                <h2>Dương Văn Tài</h2>
+
+            </div>
+
+            
+            <!-- 5. Phần nhạc -->
+            <audio id="player" autoplay controls>
+                <source src="./music.mp3" type="audio/mp3">
+            </audio>
+        </div>
+        <script>
+            if (document.location.search.match(/type=embed/gi)) {
+                window.parent.postMessage("resize", "*");
+            }
+            function showMessage() {
+                // 6. Lời nhắn hiện ra khi bấm vào tên hoặc avatar
+                swal({
+                    title: "Lời nhắn", // Tiêu đề của popup
+                    text: " ❤️ Cả lớp D16-CNMP4 xin được phép cảm ơn công lao dạy học bọn em trong thời gian qua,bọn em rất vui cũng như rất trân trọng những khoảnh khắc bên nhau đấy,nhưng bữa tiệc vui nào cũng phải đến lúc tàn lớp D16-CNPM4 xin đc tặng cô món quà làm từ chính tấm lòng và tình cảm của cả lớp em dành tặng cho cô ạ❤️",
+                    button: {
+                        text: "❤️️",
+                    },
+                });
+            }
+        </script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </body>
+</html>
