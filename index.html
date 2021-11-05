@@ -59,7 +59,7 @@
                 <!-- 3. Avatar của người bạn muốn gởi lời chúc -->
                 <img src="./MyAvatar.jpg" alt="" class="avatar__img" onclick="showMessage()" />
                 <!-- 4. Tên của người đó -->
-                <h1 onclick="showMessage()" class="avatar__text">💌<br>Hoàng Thị Thùy Trang </h1>
+                <h1 onclick="showMessage()" class="avatar__text">Ấn vào đây💌<br>Hoàng Thị Thùy Trang </h1>
             </div>
             <div class="anc_pl"> 
 
@@ -100,6 +100,9 @@
                 <source src="./music.mp3" type="audio/mp3">
             </audio>
         </div>
+            <script>
+            alert("Bấm OK để tiếp tục ")
+        </script>
         <script>
             if (document.location.search.match(/type=embed/gi)) {
                 window.parent.postMessage("resize", "*");
