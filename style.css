@@ -37,9 +37,10 @@ span {
 }
 #player {
     margin-left: 380px;
-    margin-top: -1905px;
-    width: 10px;
-    height: 10px;
+    margin-top: -2640px;
+    width: 15px;
+    height: 15px;
+    background-color: thistle;
 }
 .text {
     margin-top: -1900;
