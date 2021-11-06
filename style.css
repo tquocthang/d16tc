@@ -36,8 +36,8 @@ span {
     margin-top: 100px;
 }
 #player {
-    margin-left: 380px;
-    margin-top: -2640px;
+    margin-left: 560px;
+    margin-top: -2390px;
     width: 15px;
     height: 15px;
     background-color: thistle;
@@ -264,12 +264,11 @@ span {
     cursor: pointer;
     position: absolute;
     top: 50%;
-    left: calc(40% - 100px);
+    left: calc(45% - 100px);
 }
-
 .avatar__img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 5px solid rgba(234, 15, 150, 0.9);
     box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
@@ -280,7 +279,7 @@ span {
 }
 .avatar__text {
     cursor: pointer;
-    left: -18%;
+    left: -130;
     margin-top:-180px;
     -webkit-animation: balloon1 4s ease-in-out infinite;
     -moz-animation: balloon1 4s ease-in-out infinite;
@@ -289,7 +288,7 @@ span {
 }
 .avatar__title {
     cursor: pointer;
-    margin-top: -180px;
+    margin-top: -200px;
     -webkit-animation: balloon1 4s ease-in-out infinite;
     -moz-animation: balloon1 4s ease-in-out infinite;
     -o-animation: balloon1 4s ease-in-out infinite;
